@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'KYGeekTime' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for KYGeekTime
+  pod "Kingfisher"
+  pod "SnapKit"
+  pod "R.swift"
+
+
+  target 'KYGeekTimeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'KYGeekTimeUITests' do
+    # Pods for testing
+  end
+
+end
