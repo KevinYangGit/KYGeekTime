@@ -538,7 +538,7 @@ struct _R: Rswift.Validatable {
 
     #if os(iOS) || os(tvOS)
     struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
-      typealias InitialController = UIKit.UINavigationController
+      typealias InitialController = UIKit.UIViewController
 
       let bundle = R.hostingBundle
       let name = "LaunchScreen"

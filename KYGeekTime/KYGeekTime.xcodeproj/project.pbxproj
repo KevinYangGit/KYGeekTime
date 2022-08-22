@@ -41,6 +41,10 @@
 		3EDD8D4728AC98E100700677 /* KYGeekTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD8D4628AC98E100700677 /* KYGeekTimeTests.swift */; };
 		3EDD8D5128AC98E100700677 /* KYGeekTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD8D5028AC98E100700677 /* KYGeekTimeUITests.swift */; };
 		3EDD8D5328AC98E100700677 /* KYGeekTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD8D5228AC98E100700677 /* KYGeekTimeUITestsLaunchTests.swift */; };
+		3EF52F8128B0CA6C00A475CE /* KYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF52F8028B0CA6C00A475CE /* KYHomeViewController.swift */; };
+		3EF52F8328B0CA9B00A475CE /* KYMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF52F8228B0CA9B00A475CE /* KYMineViewController.swift */; };
+		3EF52F8528B0CBDB00A475CE /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF52F8428B0CBDB00A475CE /* UIColorExtension.swift */; };
+		3EF52F8728B0E7BC00A475CE /* KYBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF52F8628B0E7BC00A475CE /* KYBannerView.swift */; };
 		43A3030EEDCC51F43F6A5AA6 /* Pods_KYGeekTimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B60EA42F5A18C0CF923488D /* Pods_KYGeekTimeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,7 +87,7 @@
 		3EB917EA28ADD1F60021810B /* icon_pwd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pwd@2x.png"; sourceTree = "<group>"; };
 		3EB917EB28ADD1F60021810B /* icon_between@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_between@2x.png"; sourceTree = "<group>"; };
 		3EB917EC28ADD1F60021810B /* icon_column@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_column@2x.png"; sourceTree = "<group>"; };
-		3EB9180128ADD78B0021810B /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		3EB9180128ADD78B0021810B /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = KYGeekTime/R.generated.swift; sourceTree = SOURCE_ROOT; };
 		3EB9180528ADDAC10021810B /* KYProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYProduct.swift; sourceTree = "<group>"; };
 		3EB9180928ADDC3B0021810B /* KYDeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDeal.swift; sourceTree = "<group>"; };
 		3EB9180B28ADDCCF0021810B /* KYFakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYFakeData.swift; sourceTree = "<group>"; };
@@ -100,6 +104,10 @@
 		3EDD8D4C28AC98E100700677 /* KYGeekTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYGeekTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDD8D5028AC98E100700677 /* KYGeekTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYGeekTimeUITests.swift; sourceTree = "<group>"; };
 		3EDD8D5228AC98E100700677 /* KYGeekTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYGeekTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EF52F8028B0CA6C00A475CE /* KYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYHomeViewController.swift; sourceTree = "<group>"; };
+		3EF52F8228B0CA9B00A475CE /* KYMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYMineViewController.swift; sourceTree = "<group>"; };
+		3EF52F8428B0CBDB00A475CE /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		3EF52F8628B0E7BC00A475CE /* KYBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYBannerView.swift; sourceTree = "<group>"; };
 		810BB91A41B600053EBE009D /* Pods-KYGeekTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYGeekTime.release.xcconfig"; path = "Target Support Files/Pods-KYGeekTime/Pods-KYGeekTime.release.xcconfig"; sourceTree = "<group>"; };
 		9D65F1D29AB97A082825EE03 /* Pods-KYGeekTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYGeekTimeTests.release.xcconfig"; path = "Target Support Files/Pods-KYGeekTimeTests/Pods-KYGeekTimeTests.release.xcconfig"; sourceTree = "<group>"; };
 		BFA30A77BB0A95C558B6B9B0 /* Pods-KYGeekTime-KYGeekTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYGeekTime-KYGeekTimeUITests.release.xcconfig"; path = "Target Support Files/Pods-KYGeekTime-KYGeekTimeUITests/Pods-KYGeekTime-KYGeekTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +158,7 @@
 		3EB917D628ADD15D0021810B /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				3EF52F8628B0E7BC00A475CE /* KYBannerView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -157,6 +166,7 @@
 		3EB917D728ADD1690021810B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				3EF52F8428B0CBDB00A475CE /* UIColorExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -222,14 +232,15 @@
 		3EDD8D2E28AC98DF00700677 /* KYGeekTime */ = {
 			isa = PBXGroup;
 			children = (
+				3EB917D628ADD15D0021810B /* Component */,
+				3EB917D728ADD1690021810B /* Extensions */,
+				3EB917D828ADD17F0021810B /* Model */,
+				3EB9180128ADD78B0021810B /* R.generated.swift */,
+				3EB917D928ADD1910021810B /* Resource */,
 				3EDD8D2F28AC98DF00700677 /* AppDelegate.swift */,
 				3EDD8D3128AC98DF00700677 /* SceneDelegate.swift */,
 				3EDD8D3328AC98DF00700677 /* ViewController.swift */,
-				3EB9180128ADD78B0021810B /* R.generated.swift */,
-				3EB917D928ADD1910021810B /* Resource */,
-				3EB917D728ADD1690021810B /* Extensions */,
-				3EB917D828ADD17F0021810B /* Model */,
-				3EB917D628ADD15D0021810B /* Component */,
+				3EF52F7F28B0CA2900A475CE /* Pages */,
 				3EDD8D3528AC98DF00700677 /* Main.storyboard */,
 				3EDD8D3828AC98E000700677 /* Assets.xcassets */,
 				3EDD8D3A28AC98E000700677 /* LaunchScreen.storyboard */,
@@ -253,6 +264,15 @@
 				3EDD8D5228AC98E100700677 /* KYGeekTimeUITestsLaunchTests.swift */,
 			);
 			path = KYGeekTimeUITests;
+			sourceTree = "<group>";
+		};
+		3EF52F7F28B0CA2900A475CE /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3EF52F8028B0CA6C00A475CE /* KYHomeViewController.swift */,
+				3EF52F8228B0CA9B00A475CE /* KYMineViewController.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 		8BDDFF3FC7629254B74AF00A /* Pods */ = {
@@ -547,10 +567,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EDD8D3428AC98DF00700677 /* ViewController.swift in Sources */,
+				3EF52F8328B0CA9B00A475CE /* KYMineViewController.swift in Sources */,
+				3EF52F8128B0CA6C00A475CE /* KYHomeViewController.swift in Sources */,
 				3EB9180C28ADDCCF0021810B /* KYFakeData.swift in Sources */,
 				3EDD8D3028AC98DF00700677 /* AppDelegate.swift in Sources */,
 				3EB9180628ADDAC10021810B /* KYProduct.swift in Sources */,
 				3EDD8D3228AC98DF00700677 /* SceneDelegate.swift in Sources */,
+				3EF52F8528B0CBDB00A475CE /* UIColorExtension.swift in Sources */,
+				3EF52F8728B0E7BC00A475CE /* KYBannerView.swift in Sources */,
 				3EB9180228ADD78B0021810B /* R.generated.swift in Sources */,
 				3EB9180A28ADDC3B0021810B /* KYDeal.swift in Sources */,
 			);
