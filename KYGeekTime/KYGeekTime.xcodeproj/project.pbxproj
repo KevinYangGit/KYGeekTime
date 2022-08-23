@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		188C7D2EB5B5C1E268178176 /* Pods_KYGeekTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131EE41860EB21FCE43CA4FF /* Pods_KYGeekTime.framework */; };
 		2ECEB89DE1248E4D4CAA0CB1 /* Pods_KYGeekTime_KYGeekTimeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29B29FB87373EEB8D23753D /* Pods_KYGeekTime_KYGeekTimeUITests.framework */; };
+		3EB5796428B3132600106471 /* KYProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB5796328B3132600106471 /* KYProductList.swift */; };
 		3EB917ED28ADD1F60021810B /* icon_life@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB917DA28ADD1F50021810B /* icon_life@2x.png */; };
 		3EB917EE28ADD1F60021810B /* icon_course@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB917DB28ADD1F50021810B /* icon_course@2x.png */; };
 		3EB917EF28ADD1F60021810B /* icon_right_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB917DC28ADD1F50021810B /* icon_right_arrow@2x.png */; };
@@ -68,6 +69,7 @@
 /* Begin PBXFileReference section */
 		131EE41860EB21FCE43CA4FF /* Pods_KYGeekTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYGeekTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B60EA42F5A18C0CF923488D /* Pods_KYGeekTimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYGeekTimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB5796328B3132600106471 /* KYProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYProductList.swift; sourceTree = "<group>"; };
 		3EB917DA28ADD1F50021810B /* icon_life@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_life@2x.png"; sourceTree = "<group>"; };
 		3EB917DB28ADD1F50021810B /* icon_course@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_course@2x.png"; sourceTree = "<group>"; };
 		3EB917DC28ADD1F50021810B /* icon_right_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_right_arrow@2x.png"; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				3EF52F8628B0E7BC00A475CE /* KYBannerView.swift */,
+				3EB5796328B3132600106471 /* KYProductList.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -577,6 +580,7 @@
 				3EF52F8728B0E7BC00A475CE /* KYBannerView.swift in Sources */,
 				3EB9180228ADD78B0021810B /* R.generated.swift in Sources */,
 				3EB9180A28ADDC3B0021810B /* KYDeal.swift in Sources */,
+				3EB5796428B3132600106471 /* KYProductList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

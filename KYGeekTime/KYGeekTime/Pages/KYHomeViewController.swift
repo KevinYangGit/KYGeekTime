@@ -7,8 +7,9 @@
 
 import UIKit
 import Kingfisher
+import SwiftUI
 
-class KYHomeViewController: UIViewController, KYBannerViewDelegate, KYBannerViewDataSource {
+class KYHomeViewController: UIViewController, KYBannerViewDelegate, KYBannerViewDataSource, KYProductListDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,13 +18,27 @@ class KYHomeViewController: UIViewController, KYBannerViewDelegate, KYBannerView
         
         view.backgroundColor = .red
         self.title = "首页"
-        self.automaticallyAdjustsScrollViewInsets = false
+        
+        if #available(iOS 11.0, *) {
+            
+        } else {
+            self.automaticallyAdjustsScrollViewInsets = false
+        }
         
         let bannerView = KYBannerView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 176))
         bannerView.dataSource = self
         bannerView.delegate = self
         bannerView.autoScrollInterval = 2
         view.addSubview(bannerView)
+        
+        let productList = KYProductList(frame: .zero)
+        productList.items = KYFakeData.createProducts()
+        productList.delegate = self
+        view.addSubview(productList)
+        productList.snp.makeConstraints { make in
+            make.left.right.bottom.equalToSuperview()
+            make.top.equalTo(bannerView.snp.bottom).offset(5)
+        }
     }
     
     func numberOfBanners(_ bannerView: KYBannerView) -> Int {
@@ -44,7 +59,11 @@ class KYHomeViewController: UIViewController, KYBannerViewDelegate, KYBannerView
     }
     
     func didSelectBanner(_ bannerView: KYBannerView, index: Int) {
-        
+        print("didSelectedBanner - \(index)")
+    }
+    
+    func didSelectedItem(product: KYProduct) {
+        print("didSelectedItem - \(product.name)")
     }
     
     
