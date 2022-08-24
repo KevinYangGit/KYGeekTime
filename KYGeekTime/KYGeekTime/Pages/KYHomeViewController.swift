@@ -9,7 +9,7 @@ import UIKit
 import Kingfisher
 import SwiftUI
 
-class KYHomeViewController: UIViewController, KYBannerViewDelegate, KYBannerViewDataSource, KYProductListDelegate {
+class KYHomeViewController: KYBaseViewController, KYBannerViewDelegate, KYBannerViewDataSource, KYProductListDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,6 +64,9 @@ class KYHomeViewController: UIViewController, KYBannerViewDelegate, KYBannerView
     
     func didSelectedItem(product: KYProduct) {
         print("didSelectedItem - \(product.name)")
+        let detailVC = KYDetailViewController()
+        detailVC.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(detailVC, animated: true)
     }
     
     

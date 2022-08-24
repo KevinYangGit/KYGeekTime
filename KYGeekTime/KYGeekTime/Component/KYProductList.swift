@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Kingfisher
+import SnapKit
 
 class KYProductListCell: UITableViewCell {
     
@@ -83,7 +85,7 @@ class KYProductList: UIView, UITableViewDelegate, UITableViewDataSource {
             self.tableView.reloadData()
         }
     }
-    var delegate: KYProductListDelegate?
+    weak var delegate: KYProductListDelegate?
     
     override init(frame: CGRect) {
         tableView = UITableView(frame: frame, style: .plain)
@@ -129,5 +131,6 @@ class KYProductList: UIView, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         delegate?.didSelectedItem(product: items[indexPath.row])
+        tableView.deselectRow(at: indexPath, animated: false)
     }
 }

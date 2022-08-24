@@ -33,6 +33,9 @@
 		3EB9180628ADDAC10021810B /* KYProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB9180528ADDAC10021810B /* KYProduct.swift */; };
 		3EB9180A28ADDC3B0021810B /* KYDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB9180928ADDC3B0021810B /* KYDeal.swift */; };
 		3EB9180C28ADDCCF0021810B /* KYFakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB9180B28ADDCCF0021810B /* KYFakeData.swift */; };
+		3EC3D77F28B464020094AB13 /* KYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D77E28B464020094AB13 /* KYBaseViewController.swift */; };
+		3EC3D78128B467190094AB13 /* KYDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D78028B467190094AB13 /* KYDetailViewController.swift */; };
+		3EC3D78328B467C50094AB13 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D78228B467C50094AB13 /* Tab.swift */; };
 		3EDD8D3028AC98DF00700677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD8D2F28AC98DF00700677 /* AppDelegate.swift */; };
 		3EDD8D3228AC98DF00700677 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD8D3128AC98DF00700677 /* SceneDelegate.swift */; };
 		3EDD8D3428AC98DF00700677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD8D3328AC98DF00700677 /* ViewController.swift */; };
@@ -93,6 +96,9 @@
 		3EB9180528ADDAC10021810B /* KYProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYProduct.swift; sourceTree = "<group>"; };
 		3EB9180928ADDC3B0021810B /* KYDeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDeal.swift; sourceTree = "<group>"; };
 		3EB9180B28ADDCCF0021810B /* KYFakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYFakeData.swift; sourceTree = "<group>"; };
+		3EC3D77E28B464020094AB13 /* KYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYBaseViewController.swift; sourceTree = "<group>"; };
+		3EC3D78028B467190094AB13 /* KYDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDetailViewController.swift; sourceTree = "<group>"; };
+		3EC3D78228B467C50094AB13 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		3EDD8D2C28AC98DF00700677 /* KYGeekTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYGeekTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDD8D2F28AC98DF00700677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EDD8D3128AC98DF00700677 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -162,6 +168,7 @@
 			children = (
 				3EF52F8628B0E7BC00A475CE /* KYBannerView.swift */,
 				3EB5796328B3132600106471 /* KYProductList.swift */,
+				3EC3D78228B467C50094AB13 /* Tab.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -274,6 +281,8 @@
 			children = (
 				3EF52F8028B0CA6C00A475CE /* KYHomeViewController.swift */,
 				3EF52F8228B0CA9B00A475CE /* KYMineViewController.swift */,
+				3EC3D77E28B464020094AB13 /* KYBaseViewController.swift */,
+				3EC3D78028B467190094AB13 /* KYDetailViewController.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -570,6 +579,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EDD8D3428AC98DF00700677 /* ViewController.swift in Sources */,
+				3EC3D78128B467190094AB13 /* KYDetailViewController.swift in Sources */,
 				3EF52F8328B0CA9B00A475CE /* KYMineViewController.swift in Sources */,
 				3EF52F8128B0CA6C00A475CE /* KYHomeViewController.swift in Sources */,
 				3EB9180C28ADDCCF0021810B /* KYFakeData.swift in Sources */,
@@ -577,8 +587,10 @@
 				3EB9180628ADDAC10021810B /* KYProduct.swift in Sources */,
 				3EDD8D3228AC98DF00700677 /* SceneDelegate.swift in Sources */,
 				3EF52F8528B0CBDB00A475CE /* UIColorExtension.swift in Sources */,
+				3EC3D77F28B464020094AB13 /* KYBaseViewController.swift in Sources */,
 				3EF52F8728B0E7BC00A475CE /* KYBannerView.swift in Sources */,
 				3EB9180228ADD78B0021810B /* R.generated.swift in Sources */,
+				3EC3D78328B467C50094AB13 /* Tab.swift in Sources */,
 				3EB9180A28ADDC3B0021810B /* KYDeal.swift in Sources */,
 				3EB5796428B3132600106471 /* KYProductList.swift in Sources */,
 			);

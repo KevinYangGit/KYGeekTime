@@ -1,21 +1,21 @@
 //
-//  KYMineViewController.swift
+//  KYBaseViewController.swift
 //  KYGeekTime
 //
-//  Created by yangqi on 2022/8/20.
+//  Created by yangqi on 2022/8/23.
 //
 
 import UIKit
 
-class KYMineViewController: KYBaseViewController {
+class KYBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        self.title = "我的"
-        view.backgroundColor = .orange
+        view.backgroundColor = UIColor.hexColor(0xf2f4f7)
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.hexColor(0x333333)]
+        edgesForExtendedLayout = UIRectEdge(rawValue: 0)
     }
     
 
