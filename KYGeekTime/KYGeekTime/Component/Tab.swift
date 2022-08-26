@@ -87,6 +87,7 @@ class Tab: UIView {
             
             if index == 0 {
                 selectedItemButton = button
+                button.isSelected = true
             }
         }
         indicatorView = UIView()

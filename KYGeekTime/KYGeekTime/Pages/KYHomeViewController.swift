@@ -65,6 +65,7 @@ class KYHomeViewController: KYBaseViewController, KYBannerViewDelegate, KYBanner
     func didSelectedItem(product: KYProduct) {
         print("didSelectedItem - \(product.name)")
         let detailVC = KYDetailViewController()
+        detailVC.product = product
         detailVC.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(detailVC, animated: true)
     }
