@@ -160,7 +160,8 @@ class KYDetailViewController: KYBaseViewController {
     }
     
     @objc func didClickBuyButton(button: UIButton) {
-        
+        let loginVC = KYLoginViewController()
+        navigationController?.pushViewController(loginVC, animated: true)
     }
     
 

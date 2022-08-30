@@ -33,6 +33,7 @@
 		3EB9180628ADDAC10021810B /* KYProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB9180528ADDAC10021810B /* KYProduct.swift */; };
 		3EB9180A28ADDC3B0021810B /* KYDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB9180928ADDC3B0021810B /* KYDeal.swift */; };
 		3EB9180C28ADDCCF0021810B /* KYFakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB9180B28ADDCCF0021810B /* KYFakeData.swift */; };
+		3EBFA8F728B8631E00A6FBBA /* KYLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBFA8F628B8631E00A6FBBA /* KYLoginViewController.swift */; };
 		3EC3D77F28B464020094AB13 /* KYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D77E28B464020094AB13 /* KYBaseViewController.swift */; };
 		3EC3D78128B467190094AB13 /* KYDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D78028B467190094AB13 /* KYDetailViewController.swift */; };
 		3EC3D78328B467C50094AB13 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D78228B467C50094AB13 /* Tab.swift */; };
@@ -96,6 +97,7 @@
 		3EB9180528ADDAC10021810B /* KYProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYProduct.swift; sourceTree = "<group>"; };
 		3EB9180928ADDC3B0021810B /* KYDeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDeal.swift; sourceTree = "<group>"; };
 		3EB9180B28ADDCCF0021810B /* KYFakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYFakeData.swift; sourceTree = "<group>"; };
+		3EBFA8F628B8631E00A6FBBA /* KYLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYLoginViewController.swift; sourceTree = "<group>"; };
 		3EC3D77E28B464020094AB13 /* KYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYBaseViewController.swift; sourceTree = "<group>"; };
 		3EC3D78028B467190094AB13 /* KYDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDetailViewController.swift; sourceTree = "<group>"; };
 		3EC3D78228B467C50094AB13 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 				3EF52F8228B0CA9B00A475CE /* KYMineViewController.swift */,
 				3EC3D77E28B464020094AB13 /* KYBaseViewController.swift */,
 				3EC3D78028B467190094AB13 /* KYDetailViewController.swift */,
+				3EBFA8F628B8631E00A6FBBA /* KYLoginViewController.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -593,6 +596,7 @@
 				3EC3D78328B467C50094AB13 /* Tab.swift in Sources */,
 				3EB9180A28ADDC3B0021810B /* KYDeal.swift in Sources */,
 				3EB5796428B3132600106471 /* KYProductList.swift in Sources */,
+				3EBFA8F728B8631E00A6FBBA /* KYLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
