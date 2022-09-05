@@ -9,7 +9,8 @@ import UIKit
 import Kingfisher
 import SwiftUI
 
-class KYHomeViewController: KYBaseViewController, KYBannerViewDelegate, KYBannerViewDataSource, KYProductListDelegate {
+//class KYHomeViewController: KYBaseViewController, KYBannerViewDelegate, KYBannerViewDataSource, KYProductListDelegate {
+class KYHomeViewController: KYBaseViewController, KYBannerViewDelegate, KYBannerViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,9 +32,10 @@ class KYHomeViewController: KYBaseViewController, KYBannerViewDelegate, KYBanner
         bannerView.autoScrollInterval = 2
         view.addSubview(bannerView)
         
-        let productList = KYProductList(frame: .zero)
+//        let productList = KYProductList(frame: .zero)
+        let productList = KYCommonList<KYProduct, KYNewProducctListCell>(frame: .zero)
         productList.items = KYFakeData.createProducts()
-        productList.delegate = self
+//        productList.delegate = self
         view.addSubview(productList)
         productList.snp.makeConstraints { make in
             make.left.right.bottom.equalToSuperview()

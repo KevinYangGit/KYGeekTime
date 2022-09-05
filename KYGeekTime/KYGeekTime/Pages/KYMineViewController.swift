@@ -109,7 +109,8 @@ class KYMineViewController: KYBaseViewController {
     
     // 已购
     @objc func didClickPurchasedCell() {
-        
+        let dealVC = KYDealViewController()
+        navigationController?.pushViewController(dealVC, animated: true)
     }
     
     /*
