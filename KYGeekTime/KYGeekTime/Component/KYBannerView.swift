@@ -8,12 +8,29 @@
 import UIKit
 import SwiftUI
 
+/// 数据源方法
 protocol KYBannerViewDataSource: AnyObject {
+    
+    /// 横幅数量
+    /// - Parameter bannerView: 轮播器
+    /// - Returns: 数量
     func numberOfBanners(_ bannerView: KYBannerView) ->Int
+    
+    /// 获取当前横幅View
+    /// - Parameters:
+    ///   - bannerView: 轮播器
+    ///   - index: 当前横幅下标
+    ///   - convertView: 横幅view
+    /// - Returns: 横幅view
     func viewForBanner(_ bannerView: KYBannerView, index: Int, convertView: UIView?) ->UIView
 }
 
 protocol KYBannerViewDelegate: AnyObject {
+    
+    /// 选中
+    /// - Parameters:
+    ///   - bannerView: 轮播器
+    ///   - index: 选中横幅下标
     func didSelectBanner(_ bannerView: KYBannerView, index: Int)
 }
 

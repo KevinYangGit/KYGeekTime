@@ -17,6 +17,7 @@ class ViewController: UITabBarController {
         
         self.tabBar.backgroundColor = UIColor.white
         
+        // 设置导航栏样式（白底黑字）
         let appearance = UINavigationBarAppearance()
         appearance.backgroundColor = .white
         appearance.shadowImage = UIImage()

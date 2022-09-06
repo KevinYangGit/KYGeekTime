@@ -12,6 +12,7 @@ import SnapKit
 class KYCommonListCell<ItemType>: UITableViewCell {
     var item: ItemType?
     
+    // 要求子类必须重写该方法
     required override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
     }

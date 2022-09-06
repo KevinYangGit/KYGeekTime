@@ -13,7 +13,8 @@ class KYFakeData {
     private static var products = [KYProduct]()
     private static var deals = [KYDeal]()
     
-    // 无限轮播
+    /// 无限轮播
+    /// - Returns: 轮播图片地址数组
     static func createBanners() -> [String] {
         if bannerList.count > 0 { return bannerList }
         bannerList =
@@ -23,7 +24,8 @@ class KYFakeData {
         return bannerList
     }
     
-    // 产品列表
+    /// 产品列表
+    /// - Returns: 产品列表数组
     static func createProducts() -> [KYProduct] {
         if products.count > 0 { return products }
         let p1 = KYProduct(imageUrl: "https://static001.geekbang.org/resource/image/87/ee/8778de4ccd67425a762cea15361639ee.jpg?x-oss-process=image/resize,m_fill,h_336,w_254", name: "MongoDB高手课", desc: "Tapdata CTO、MongoDB中文社区主席、前MongoDB大中华区首席架构师", price: 129, teacher: "唐建法", total: 47, update: 9, studentCount: 2205, detail: "MongoDB 是当前广受欢迎的 NoSQL 数据库，目前社...", courseList: "第一章：MongoDB再入门 (9讲)")
@@ -38,7 +40,8 @@ class KYFakeData {
         return products
     }
     
-    // 订单
+    /// 订单列表
+    /// - Returns: 订单详情数组
     static func createDeals() -> [KYDeal] {
         if deals.count > 0 { return deals }
         

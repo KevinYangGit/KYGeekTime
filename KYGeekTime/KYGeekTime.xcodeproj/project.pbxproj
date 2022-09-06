@@ -41,6 +41,7 @@
 		3EC3D77F28B464020094AB13 /* KYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D77E28B464020094AB13 /* KYBaseViewController.swift */; };
 		3EC3D78128B467190094AB13 /* KYDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D78028B467190094AB13 /* KYDetailViewController.swift */; };
 		3EC3D78328B467C50094AB13 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D78228B467C50094AB13 /* Tab.swift */; };
+		3ECA71D328C58DE300914A6C /* KYDealListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA71D228C58DE300914A6C /* KYDealListCell.swift */; };
 		3EDD8D3028AC98DF00700677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD8D2F28AC98DF00700677 /* AppDelegate.swift */; };
 		3EDD8D3228AC98DF00700677 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD8D3128AC98DF00700677 /* SceneDelegate.swift */; };
 		3EDD8D3428AC98DF00700677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD8D3328AC98DF00700677 /* ViewController.swift */; };
@@ -109,6 +110,7 @@
 		3EC3D77E28B464020094AB13 /* KYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYBaseViewController.swift; sourceTree = "<group>"; };
 		3EC3D78028B467190094AB13 /* KYDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDetailViewController.swift; sourceTree = "<group>"; };
 		3EC3D78228B467C50094AB13 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		3ECA71D228C58DE300914A6C /* KYDealListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDealListCell.swift; sourceTree = "<group>"; };
 		3EDD8D2C28AC98DF00700677 /* KYGeekTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYGeekTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDD8D2F28AC98DF00700677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EDD8D3128AC98DF00700677 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -176,11 +178,12 @@
 		3EB917D628ADD15D0021810B /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				3EF52F8628B0E7BC00A475CE /* KYBannerView.swift */,
 				3EB5796328B3132600106471 /* KYProductList.swift */,
-				3EB7633C28C1A1660077F346 /* KYNewProductListCell.swift */,
+				3EF52F8628B0E7BC00A475CE /* KYBannerView.swift */,
 				3EB7633A28C19B070077F346 /* KYCommonList.swift */,
 				3E974F5B28BF00E500515B0A /* CommonCell.swift */,
+				3EB7633C28C1A1660077F346 /* KYNewProductListCell.swift */,
+				3ECA71D228C58DE300914A6C /* KYDealListCell.swift */,
 				3EC3D78228B467C50094AB13 /* Tab.swift */,
 			);
 			path = Component;
@@ -595,6 +598,7 @@
 			files = (
 				3EB7633D28C1A1660077F346 /* KYNewProductListCell.swift in Sources */,
 				3EDD8D3428AC98DF00700677 /* ViewController.swift in Sources */,
+				3ECA71D328C58DE300914A6C /* KYDealListCell.swift in Sources */,
 				3EC3D78128B467190094AB13 /* KYDetailViewController.swift in Sources */,
 				3EF52F8328B0CA9B00A475CE /* KYMineViewController.swift in Sources */,
 				3EF52F8128B0CA6C00A475CE /* KYHomeViewController.swift in Sources */,

@@ -18,8 +18,8 @@ class KYDealViewController: UIViewController {
     }
     
     func setupViews() {
-        let dealList = KYCommonList<KYProduct, KYProductListCell>(frame: .zero)
-        dealList.items = KYFakeData.createProducts()
+        let dealList = KYCommonList<KYDeal, KYDealListCell>(frame: .zero)
+        dealList.items = KYFakeData.createDeals()
         view.addSubview(dealList)
         dealList.snp.makeConstraints { make in
             make.edges.equalToSuperview()
